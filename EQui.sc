@@ -32,6 +32,7 @@ EQui : QUserView {
 			equi,
 			freqScope
 		).mode_(1);
+                ^equi;
 	}
 
 	target_ {|intarget| target = intarget; target.set(*params.asArgsArray(prefix)); }
